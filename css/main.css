@@ -1,0 +1,18 @@
+body {
+  background-color: #e23636;
+  color: white;
+  vertical-align: top; }
+  body img {
+    max-width: 100%; }
+  body #mainContainer {
+    background-color: rgba(247, 143, 63, 0.55);
+    width: 75%;
+    padding: 30px; }
+    body #mainContainer .content {
+      text-align: center;
+      margin: 30px;
+      background-color: rgba(81, 140, 202, 0.7); }
+      body #mainContainer .content #characters {
+        padding: 50px; }
+      body #mainContainer .content #comics {
+        padding: 50px; }
