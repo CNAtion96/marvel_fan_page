@@ -4,8 +4,13 @@ $.ajax({url: "https://gateway.marvel.com:443/v1/public/characters?limit=50&apike
             <div class="character col-md-6">
               <h2>${character.name}</h2>
               <img src="${character.thumbnail.path}.${character.thumbnail.extension}" />
-              <p class="description">${character.description}</p>
+              <button class="moreInfo">Show More</button>
+              <div class="description hide"><p>${character.description}</p></div>
             </div>        
           `);
       })
 }});
+
+$('body').on('click', '.moreInfo', function(){
+    $(this).parent().find(".description").toggleClass("hide");
+})

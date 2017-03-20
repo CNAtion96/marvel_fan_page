@@ -1,9 +1,13 @@
 body {
   background-color: #e23636;
   color: white;
-  vertical-align: top; }
+  vertical-align: top;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 3px; }
   body img {
     max-width: 100%; }
+    body img:hover {
+      box-shadow: 10px 10px 5px darkslategrey; }
   body #mainContainer {
     background-color: rgba(247, 143, 63, 0.55);
     width: 75%;
@@ -16,3 +20,5 @@ body {
         padding: 50px; }
       body #mainContainer .content #comics {
         padding: 50px; }
+      body #mainContainer .content .hide {
+        display: none; }
